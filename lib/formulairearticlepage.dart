@@ -98,7 +98,7 @@ class _FormulairearticlepageState extends State<Formulairearticlepage> {
                 toutlesarticles.add(data2);
                 print(toutlesarticles);
                 memoire.setStringList(ARTICLES_KEY, toutlesarticles);
-                Navigator.pop(context);//retourenarriere
+                Navigator.pop(context);
               },
             ),
           ],
