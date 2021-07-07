@@ -217,6 +217,6 @@ class _FormulairerevenuspageState extends State<Formulairerevenuspage> {
         int qty = int.parse(d["quantite"]);
         somme_vente = somme_vente - qty;
       });
-      solde_quantite = somme_achat - somme_vente;
+      solde_quantite = somme_achat - somme_vente;//calculqte
     }
   }}
